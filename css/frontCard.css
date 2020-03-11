@@ -1,0 +1,34 @@
+.frontCard
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.85);
+	z-index: 100000;
+}
+
+.frontCardWrapper
+{
+	position: relative;	
+}
+
+.frontCardShowcase
+{
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+.frontCardContentWrapper
+{
+	float: left;
+	display: inline-block;
+	font-size: 30px;
+	color: white;	
+}
+.frontCardNameHeader
+{
+	text-align: center;
+	margin: 10px;
+}
