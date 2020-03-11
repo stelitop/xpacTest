@@ -1,0 +1,14 @@
+{
+	"name": "First Arcanist Thalyssra",
+	"text": "<b>Battlecry:</b> Spend all your Mana. Draw that many cards.",
+	"flavor": "She and her people left Suramar thousands of years ago and have been mana-starved ever since. It would explain why they're all so skinny.",
+	"cardClass": "Mage",
+	"rarity": "Legendary",
+	"type": "Minion",
+	"cost": 4,
+	"attack": 3,
+	"health": 6,
+	
+	"cardSource": "http://cards.hearthcards.net/3d6c8a2f.png",
+	"artSource": "insert original art source"	
+}

@@ -1,0 +1,14 @@
+{
+	"name": "Insatiable Hunger",
+	"text": "<b>Discover</b> a spell. If you have no Mana remaining, keep all 3.",
+	"flavor": "Insert Insatiable Hunger's flavour text here.",
+	"cardClass": "Mage",
+	"rarity": "Epic",
+	"type": "Spell",
+	"cost": 2,
+	"attack": 0,
+	"health": 0,
+	
+	"cardSource": "http://cards.hearthcards.net/48b304e4.png",
+	"artSource": "insert original art source"	
+}
