@@ -1,0 +1,15 @@
+{
+	"name": "Arcane Storm",
+	"text": "Deal 2 damage to all enemy minions, or 4 if you have no Mana remaining.",
+	"flavor": "Insert Insatiable Hunger's flavour text here.",
+	"cardClass": "Mage",
+	"rarity": "Common",
+	"type": "Spell",
+	"cost": 5,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"cardSource": "http://cards.hearthcards.net/83e96df2.png",
+	"artSource": "insert original art source"	
+}

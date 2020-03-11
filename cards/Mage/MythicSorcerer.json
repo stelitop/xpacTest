@@ -1,0 +1,15 @@
+{
+	"name": "Mythic Sorcerer",
+	"text": "<b>Deathrattle:</b> Give the next minion you play <b>Spell Damage +2</b>.",
+	"flavor": "Insert Insatiable Hunger's flavour text here.",
+	"cardClass": "Mage",
+	"rarity": "Rare",
+	"type": "Minion",
+	"cost": 3,
+	"attack": 3,
+	"health": 3,
+	"tribe": "None",
+	
+	"cardSource": "http://cards.hearthcards.net/972e3d2f.png",
+	"artSource": "insert original art source"	
+}

@@ -1,6 +1,6 @@
 {
-	"name": "Insatiable Hunger",
-	"text": "<b>Discover</b> a spell. If you have no Mana remaining, keep all 3.",
+	"name": "The Nightwell's Echo",
+	"text": "Add a copy of a friendly Elemental to your hand. If you played it last turn, also summon a copy of it.",
 	"flavor": "Insert Insatiable Hunger's flavour text here.",
 	"cardClass": "Mage",
 	"rarity": "Epic",
@@ -10,6 +10,6 @@
 	"health": 0,
 	"tribe": "None",
 	
-	"cardSource": "http://cards.hearthcards.net/48b304e4.png",
+	"cardSource": "http://cards.hearthcards.net/a7bbe659.png",
 	"artSource": "insert original art source"	
 }

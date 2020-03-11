@@ -1,0 +1,15 @@
+{
+	"name": "Nightborne Arcanist",
+	"text": "<b>Battlecry:</b> Your next spell this turn costs (2) less.",
+	"flavor": "Insert Insatiable Hunger's flavour text here.",
+	"cardClass": "Mage",
+	"rarity": "Common",
+	"type": "Minion",
+	"cost": 2,
+	"attack": 2,
+	"health": 2,
+	"tribe": "None",
+	
+	"cardSource": "http://cards.hearthcards.net/630e8edb.png",
+	"artSource": "insert original art source"	
+}
