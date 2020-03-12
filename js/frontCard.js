@@ -90,7 +90,7 @@ function createFrontCard(cardurl)
 		{
 			var newHTML = '';
 					
-			newHTML += '<img src="' + result.cardSource + '" class="frontCardShowcase"/>';									
+			newHTML += '<div> <img src="' + result.cardSource + '" class="frontCardShowcase"/> </div>';									
 			newHTML += '<div class="frontCardContentWrapper">';
 			newHTML += '<div class="frontCardNameHeader"> <b>'+ result.name + '</b> </div>';
 			newHTML += result.rarity + ' ' + result.cardClass + ' ' + result.type + '<br/> <br/>';
