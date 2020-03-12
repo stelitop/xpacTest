@@ -1,80 +1,69 @@
-var currentCardUrl = 'cards/Mage/FirstArcanistThalyssra.json'; //default value
+var currentFrontCardUrl = 'cards/Mage/FirstArcanistThalyssra.json'; //default value
 
-function setFrontCardDimensions(cardurl)
+function updateFrontCard()
 {
-	$.getJSON(cardurl, function(result){		
+	var heightPer = 0.24; //% space between top and bottom of the screen
+	var tokenScale = 1.5; //how much smaller the tokens are compared to the main card
+	var windowWidth = window.innerWidth, windowHeight = window.innerHeight;	
+		
+	var paddingVertical = (1-2*heightPer)*windowHeight/12; 	
+	var paddingLeft = windowHeight*(1-2*heightPer)*400/(569*10); //distance between card and description		
+	var fontSz = (1-2*heightPer)*windowHeight/22;
+	var descriptionWidth = (windowHeight*(1-2*heightPer)*400/569)*1.7+8;		
 	
+	if (windowHeight*2.80*(1-2*heightPer)*400/569 > windowWidth)		
+	{
+		heightPer = (1-windowWidth*569/(400*2.80*windowHeight))/2;
 		
+		paddingVertical = (1-2*heightPer)*windowHeight/12; 	
+		paddingLeft = windowHeight*(1-2*heightPer)*400/(569*10); //distance between card and description		
+		fontSz = (1-2*heightPer)*windowHeight/22;
+		descriptionWidth = (windowHeight*(1-2*heightPer)*400/569)*1.7;	
+	}
 	
-		var heightPer = 0.22; //% space between top and bottom of the screen		
-		var windowWidth = window.innerWidth, windowHeight = window.innerHeight;	
+	var frontCardWrapper = document.getElementsByClassName('frontCardWrapper');				
+	
+	for (i = 0; i < frontCardWrapper.length; i++)
+	{											
+		frontCardWrapper[i].style.height = (windowHeight*(1-2*heightPer)).toString() + 'px';
+		frontCardWrapper[i].style.top = (100*heightPer).toString() + '%';
 		
-		var paddingVertical = (1-2*heightPer)*windowHeight/8; 	
-		var paddingLeft = windowHeight*(1-2*heightPer)*400/(569*10); //distance between card and description		
-		var fontSz = (1-2*heightPer)*windowHeight/18;
-		var descriptionWidth = (windowHeight*(1-2*heightPer)*400/569)*1.7+8;		
-		
-		if (windowHeight*2.80*(1-2*heightPer)*400/569 > windowWidth)		
-		{
-			heightPer = (1-windowWidth*569/(400*2.80*windowHeight))/2;
-			
-			paddingVertical = (1-2*heightPer)*windowHeight/8; 	
-			paddingLeft = windowHeight*(1-2*heightPer)*400/(569*10); //distance between card and description		
-			fontSz = (1-2*heightPer)*windowHeight/18;
-			descriptionWidth = (windowHeight*(1-2*heightPer)*400/569)*1.7;	
-		}
-		
-		
-		var frontCardWrapper = document.getElementsByClassName('frontCardWrapper');				
-		
-		for (i = 0; i < frontCardWrapper.length; i++)
-		{
-			var newHTML = '';
-			
-			newHTML += '<img src="' + result.cardSource + '" class="frontCardShowcase"/>';									
-			newHTML += '<div class="frontCardContentWrapper">';
-			newHTML += '<div class="frontCardNameHeader"> '+ result.name + ' </div>';
-			newHTML += result.rarity + ' ' + result.cardClass + ' ' + result.type + '<br/> <br/>';
-			newHTML += result.text + '<br/> <br/> <br/>';
-			newHTML += '<i>' + result.flavor + '</i>';
-			newHTML += '</div>'			
-			
-			frontCardWrapper[i].innerHTML = newHTML;
-						
-			
-			frontCardWrapper[i].style.height = (windowHeight*(1-2*heightPer)).toString() + 'px';
-			frontCardWrapper[i].style.top = (100*heightPer).toString() + '%';
-			
-			frontCardWrapper[i].style.left = ( ( windowWidth - (windowHeight*(1-2*heightPer)*400/569 + paddingLeft + descriptionWidth) )/2 ).toString() + "px";
-			frontCardWrapper[i].style.width = (windowHeight*(1-2*heightPer)*400/569 + paddingLeft + descriptionWidth).toString() + 'px';
-		}
-		
-		var frontCardShowcase = document.getElementsByClassName('frontCardShowcase');
-		
-		for (i = 0; i < frontCardShowcase.length; i++)
-		{
-			frontCardShowcase[i].style.width = (windowHeight*(1-2*heightPer)*400/569).toString() + 'px';			
-		}
-		
-		var frontCardContentWrapper = document.getElementsByClassName('frontCardContentWrapper');
-		
-		for (i = 0; i < frontCardContentWrapper.length; i++)
-		{		
-			frontCardContentWrapper[i].style.fontSize = fontSz.toString() + 'px';
-			frontCardContentWrapper[i].style.height = (windowHeight*(1-2*heightPer) - 2*paddingVertical).toString() + 'px';	
-			frontCardContentWrapper[i].style.width = descriptionWidth.toString() + "px";
-			frontCardContentWrapper[i].style.paddingLeft = paddingLeft + "px";
-			frontCardContentWrapper[i].style.paddingTop = paddingVertical + "px";
-			frontCardContentWrapper[i].style.paddingBottom = paddingVertical + "px";
-		}
-		
-		var frontCardNameHeader = document.getElementsByClassName('frontCardNameHeader');
-		
-		for (i = 0; i < frontCardNameHeader.length; i++)
-		{
-			frontCardNameHeader[i].style.fontSize = (fontSz*1.2).toString() + 'px';
-		}
-	});
+		frontCardWrapper[i].style.left = ( ( windowWidth - (windowHeight*(1-2*heightPer)*400/569 + paddingLeft + descriptionWidth) )/2 ).toString() + "px";
+		frontCardWrapper[i].style.width = (windowHeight*(1-2*heightPer)*400/569 + paddingLeft + descriptionWidth).toString() + 'px';
+	}
+	
+	var frontCardShowcase = document.getElementsByClassName('frontCardShowcase');
+	
+	for (i = 0; i < frontCardShowcase.length; i++)
+	{
+		frontCardShowcase[i].style.width = (windowHeight*(1-2*heightPer)*400/569).toString() + 'px';			
+	}
+	
+	var frontCardShowcaseToken = document.getElementsByClassName('frontCardShowcaseToken');
+	
+	for (i = 0; i < frontCardShowcaseToken.length; i++)
+	{
+		frontCardShowcaseToken[i].style.width = (windowHeight*(1-2*heightPer)*400/(569*tokenScale)).toString() + 'px';			
+	}
+	
+	var frontCardContentWrapper = document.getElementsByClassName('frontCardContentWrapper');
+	
+	for (i = 0; i < frontCardContentWrapper.length; i++)
+	{		
+		frontCardContentWrapper[i].style.fontSize = fontSz.toString() + 'px';
+		frontCardContentWrapper[i].style.height = (windowHeight*(1-2*heightPer) - 2*paddingVertical).toString() + 'px';	
+		frontCardContentWrapper[i].style.width = descriptionWidth.toString() + "px";
+		frontCardContentWrapper[i].style.paddingLeft = paddingLeft + "px";
+		frontCardContentWrapper[i].style.paddingTop = paddingVertical + "px";
+		frontCardContentWrapper[i].style.paddingBottom = paddingVertical + "px";
+	}
+	
+	var frontCardNameHeader = document.getElementsByClassName('frontCardNameHeader');
+	
+	for (i = 0; i < frontCardNameHeader.length; i++)
+	{
+		frontCardNameHeader[i].style.fontSize = (fontSz*1.4).toString() + 'px';
+	}
 }
 
 function closeFrontCard()
@@ -92,5 +81,38 @@ function createFrontCard(cardurl)
 	closeFrontCard();
 	currentCardUrl = cardurl;
 	document.body.innerHTML += '<div class="frontCard" onclick="closeFrontCard()">  <div class="frontCardWrapper">  </div>  </div>';
-	setFrontCardDimensions(cardurl);
+	
+	$.getJSON(cardurl, function(result){
+		
+		var frontCardWrapper = document.getElementsByClassName('frontCardWrapper');	
+
+		for (i = 0; i < frontCardWrapper.length; i++)
+		{
+			var newHTML = '';
+					
+			newHTML += '<img src="' + result.cardSource + '" class="frontCardShowcase"/>';									
+			newHTML += '<div class="frontCardContentWrapper">';
+			newHTML += '<div class="frontCardNameHeader"> <b>'+ result.name + '</b> </div>';
+			newHTML += result.rarity + ' ' + result.cardClass + ' ' + result.type + '<br/> <br/>';
+			newHTML += result.text + '<br/> <br/> <br/>';
+			newHTML += '<i>' + result.flavor + '</i> <br/> <br/>';			
+			
+			if (result.hasOwnProperty('tokenLinks'))
+			{
+				newHTML += 'Related cards: <br/></br>';
+				for (j = 0; j < result.tokenLinks.length; j++)
+				{			
+					newHTML += '<img src="' + result.tokenLinks[i] + '" class="frontCardShowcaseToken ' + result.tokenTypes[i] + '"/>';				
+				}
+			}
+			
+			newHTML += '</div>';
+			
+			frontCardWrapper[i].innerHTML = newHTML;
+		}
+		
+		updateFrontCard();
+	})
+		
+	
 }

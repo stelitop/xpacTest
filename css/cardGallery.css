@@ -1,0 +1,14 @@
+.cardGallery
+{
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+	display: block;
+}
+.cardGalleryWrapper
+{
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

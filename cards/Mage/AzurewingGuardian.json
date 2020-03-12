@@ -10,6 +10,9 @@
 	"health": 5,
 	"tribe": "Dragon",
 	
+	"tokenLinks":[],
+	"tokenTypes":[],
+	
 	"cardSource": "http://cards.hearthcards.net/7cc109b5.png",
 	"artSource": "insert original art source"	
 }
