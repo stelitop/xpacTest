@@ -28,8 +28,8 @@ function updateFrontCard()
 		frontCardWrapper[i].style.height = (windowHeight*(1-2*heightPer)).toString() + 'px';
 		frontCardWrapper[i].style.top = (100*heightPer).toString() + '%';
 		
-		frontCardWrapper[i].style.left = ( ( windowWidth - (windowHeight*(1-2*heightPer)*400/569 + paddingLeft + descriptionWidth) )/2 ).toString() + "px";
-		frontCardWrapper[i].style.width = (windowHeight*(1-2*heightPer)*400/569 + paddingLeft + descriptionWidth).toString() + 'px';
+		frontCardWrapper[i].style.left = ( ( windowWidth - (windowHeight*(1-2*heightPer)*400/569 + paddingLeft + descriptionWidth + 2) )/2 ).toString() + "px";
+		frontCardWrapper[i].style.width = (windowHeight*(1-2*heightPer)*400/569 + paddingLeft + descriptionWidth + 2).toString() + 'px';
 	}
 	
 	var frontCardShowcase = document.getElementsByClassName('frontCardShowcase');
