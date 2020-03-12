@@ -20,6 +20,10 @@
 	display: inline-block;
 	float: left;
 }
+.frontCardShowcase
+{
+	left: 0;
+}
 .frontCardContentWrapper
 {
 	float: left;
