@@ -10,8 +10,8 @@
 	"health": 4,
 	"tribe": "None",
 	
-	"tokenLinks":[ "http://cards.hearthcards.net/30fc0975.png", "http://cards.hearthcards.net/e91b38a0.png" ],
-	"tokenTypes":[ "CardLegendaryWeapon", "CardLegendaryWeapon" ],
+	"tokenLinks":[ "http://cards.hearthcards.net/30fc0975.png", "http://cards.hearthcards.net/e91b38a0.png", "http://cards.hearthcards.net/f8d1082e.png" ],
+	"tokenTypes":[ "CardLegendaryWeapon", "CardLegendaryWeapon", "CardNormal" ],
 	
 	"cardSource": "http://cards.hearthcards.net/47d9b0b6.png",
 	"artSource": "insert original art source"	
