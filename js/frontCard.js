@@ -28,8 +28,8 @@ function updateFrontCard()
 		frontCardWrapper[i].style.height = (windowHeight*(1-2*heightPer)).toString() + 'px';
 		frontCardWrapper[i].style.top = (100*heightPer).toString() + '%';
 		
-		frontCardWrapper[i].style.left = ( ( windowWidth - (windowHeight*(1-2*heightPer)*400/569 + paddingLeft + descriptionWidth + 2) )/2 ).toString() + "px";
-		frontCardWrapper[i].style.width = (windowHeight*(1-2*heightPer)*400/569 + paddingLeft + descriptionWidth + 2).toString() + 'px';
+		frontCardWrapper[i].style.left = ( ( windowWidth - (windowHeight*(1-2*heightPer)*400/569 + paddingLeft + descriptionWidth) )/2 ).toString() + "px";
+		frontCardWrapper[i].style.width = (windowHeight*(1-2*heightPer)*400/569 + paddingLeft + descriptionWidth).toString() + 'px';
 	}
 	
 	var frontCardShowcase = document.getElementsByClassName('frontCardShowcase');
@@ -90,7 +90,7 @@ function createFrontCard(cardurl)
 		{
 			var newHTML = '';
 					
-			newHTML += '<div> <img src="' + result.cardSource + '" class="frontCardShowcase"/> </div>';									
+			newHTML += '<div style="display: inline-block; float: left;"> <img src="' + result.cardSource + '" class="frontCardShowcase"/> </div>';									
 			newHTML += '<div class="frontCardContentWrapper">';
 			newHTML += '<div class="frontCardNameHeader"> <b>'+ result.name + '</b> </div>';
 			newHTML += result.rarity + ' ' + result.cardClass + ' ' + result.type + '<br/> <br/>';
@@ -106,7 +106,7 @@ function createFrontCard(cardurl)
 					{			
 						newHTML += '<img src="' + result.tokenLinks[i] + '" class="frontCardShowcaseToken ' + result.tokenTypes[i] + '"/>';				
 					}
-				}
+				}	
 			}
 			
 			newHTML += '</div>';
