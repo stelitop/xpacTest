@@ -10,9 +10,6 @@
 	"health": 3,
 	"tribe": "Elemental",
 	
-	"tokenLinks":[],
-	"tokenTypes":[],
-	
 	"cardSource": "http://cards.hearthcards.net/94c5ff28.png",
 	"artSource": "insert original art source"	
 }

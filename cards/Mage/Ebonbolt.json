@@ -10,9 +10,6 @@
 	"health": 0,
 	"tribe": "None",
 	
-	"tokenLinks":[],
-	"tokenTypes":[],
-	
 	"cardSource": "http://cards.hearthcards.net/f8d1082e.png",
 	"artSource": "insert original art source"	
 }

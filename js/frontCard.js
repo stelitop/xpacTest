@@ -99,10 +99,13 @@ function createFrontCard(cardurl)
 			
 			if (result.hasOwnProperty('tokenLinks'))
 			{
-				newHTML += 'Related cards: <br/></br>';
-				for (j = 0; j < result.tokenLinks.length; j++)
-				{			
-					newHTML += '<img src="' + result.tokenLinks[i] + '" class="frontCardShowcaseToken ' + result.tokenTypes[i] + '"/>';				
+				if (result.tokenLinks.length > 0)
+				{
+					newHTML += 'Related cards: <br/></br>';
+					for (j = 0; j < result.tokenLinks.length; j++)
+					{			
+						newHTML += '<img src="' + result.tokenLinks[i] + '" class="frontCardShowcaseToken ' + result.tokenTypes[i] + '"/>';				
+					}
 				}
 			}
 			
