@@ -1,0 +1,15 @@
+{
+	"name": "Armageddon",
+	"text": "Deal 3 damage to three random enemy minions. If there are too few minions, destroy them.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warlock",
+	"rarity": "Epic",
+	"type": "Spell",
+	"cost": 5,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"cardSource": "http://cards.hearthcards.net/d83767af.png",
+	"artSource": "insert original art source"	
+}

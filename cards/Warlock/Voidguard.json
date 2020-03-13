@@ -1,0 +1,18 @@
+{
+	"name": "Voidguard",
+	"text": "<b>Taunt</b><br/><b>Deathrattle:</b> Summon a 1/3 Demon with <b>Taunt</b>.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warlock",
+	"rarity": "Rare",
+	"type": "Minion",
+	"cost": 6,
+	"attack": 2,
+	"health": 6,
+	"tribe": "Demon",
+	
+	"tokenLinks": [ "http://cards.hearthcards.net/d2b181de.png" ],
+	"tokenTypes": [ "CardNormal" ],
+	
+	"cardSource": "http://cards.hearthcards.net/ec276af1.png",
+	"artSource": "insert original art source"	
+}

@@ -1,0 +1,15 @@
+{
+	"name": "Hellspeaker",
+	"text": "<b>Immune</b> if your Hero has taken damage this turn.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warlock",
+	"rarity": "Common",
+	"type": "Minion",
+	"cost": 3,
+	"attack": 4,
+	"health": 3,
+	"tribe": "Demon",
+	
+	"cardSource": "http://cards.hearthcards.net/5dcf48b0.png",
+	"artSource": "insert original art source"	
+}

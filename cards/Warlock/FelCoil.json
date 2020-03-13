@@ -1,0 +1,15 @@
+{
+	"name": "Fel Coil",
+	"text": "Deal 2 damage to a minion. If it dies, summon a 2/2 Demon.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warlock",
+	"rarity": "Common",
+	"type": "Spell",
+	"cost": 2,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"cardSource": "http://cards.hearthcards.net/ca6ed154.png",
+	"artSource": "insert original art source"	
+}

@@ -1,0 +1,15 @@
+{
+	"name": "Endless Invasion",
+	"text": "Choose a minion. Summon Demons from your hand to attack it until it dies.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warlock",
+	"rarity": "Rare",
+	"type": "Spell",
+	"cost": 7,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"cardSource": "http://cards.hearthcards.net/b6d7fc7a.png",
+	"artSource": "insert original art source"	
+}

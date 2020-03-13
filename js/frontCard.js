@@ -89,11 +89,13 @@ function createFrontCard(cardurl)
 		for (i = 0; i < frontCardWrapper.length; i++)
 		{
 			var newHTML = '';
+			var cardTypeDislpay = result.type;
+			if (result.type == "Minion" && result.tribe != "None") cardTypeDislpay =  result.tribe;				
 					
 			newHTML += '<div style="display: inline-block; float: left;"> <img src="' + result.cardSource + '" class="frontCardShowcase"/> </div>';									
 			newHTML += '<div class="frontCardContentWrapper">';
 			newHTML += '<div class="frontCardNameHeader"> <b>'+ result.name + '</b> </div>';
-			newHTML += result.rarity + ' ' + result.cardClass + ' ' + result.type + '<br/> <br/>';
+			newHTML += result.rarity + ' ' + result.cardClass + ' ' + cardTypeDislpay + '<br/> <br/>';
 			newHTML += result.text + '<br/> <br/> <br/>';
 			newHTML += '<i>' + result.flavor + '</i> <br/> <br/>';			
 						

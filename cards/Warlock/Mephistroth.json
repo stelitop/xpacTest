@@ -1,0 +1,15 @@
+{
+	"name": "Mephistroth",
+	"text": "<b>Battlecry:</b> Mark the minions in front of this. Destroy them when they no longer face Mephistroth.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warlock",
+	"rarity": "Legendary",
+	"type": "Minion",
+	"cost": 7,
+	"attack": 5,
+	"health": 5,
+	"tribe": "Demon",
+	
+	"cardSource": "http://cards.hearthcards.net/2d97504d.png",
+	"artSource": "insert original art source"	
+}

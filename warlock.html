@@ -1,0 +1,77 @@
+<head>
+		<title> Expansion Name </title>		
+		<meta charset = "UTF-8"/>
+		<meta name="keywords" content="Hearthstone,CustomHearthstone,Fanmade,Legion,Expansion,Demon,Artifact">
+		
+		<link rel="stylesheet" type="text/css" href="css/card.css" />
+		<link rel="stylesheet" type="text/css" href="css/cardGallery.css" />
+		<link rel="stylesheet" type="text/css" href="css/frontCard.css" />
+		
+		<script src="js/frontCard.js"></script>
+		<script src="js/loadCard.js"></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		
+	</head>
+	
+	<body onresize='updateFrontCard(currentFrontCardUrl)'>
+		
+		<div id="cardGallery" class="cardGallery">
+			<div id="cardGalleryWrapper" class="cardGalleryWrapper">
+				
+				<div class="card" onclick='createFrontCard("cards/Warlock/DreadfulImp.json")'>
+					<img src="http://cards.hearthcards.net/8f0cc2c2.png" class="cardimage CardNormal"/>
+				</div>				
+				
+				<div class="card" onclick='createFrontCard("cards/Warlock/FelCoil.json")'>
+					<img src="http://cards.hearthcards.net/ca6ed154.png" class="cardimage CardNormal"/>
+				</div>
+
+				<div class="card" onclick='createFrontCard("cards/Warlock/Hellspeaker.json")'>
+					<img src="http://cards.hearthcards.net/5dcf48b0.png" class="cardimage CardNormal"/>
+				</div>												
+				
+				<div class="card" onclick='createFrontCard("cards/Warlock/Armageddon.json")'>
+					<img src="http://cards.hearthcards.net/d83767af.png" class="cardimage CardNormal"/>
+				</div>
+				
+				<div class="card" onclick='createFrontCard("cards/Warlock/ArgusCommander.json")'>
+					<img src="http://cards.hearthcards.net/ca305365.png" class="cardimage CardNormal"/>
+				</div>
+				
+				<div class="card" onclick='createFrontCard("cards/Warlock/DarkReinforcements.json")'>
+					<img src="http://cards.hearthcards.net/949b908b.png" class="cardimage CardNormal"/>
+				</div>
+				
+				<div class="card" onclick='createFrontCard("cards/Warlock/Voidguard.json")'>
+					<img src="http://cards.hearthcards.net/ec276af1.png" class="cardimage CardNormal"/>
+				</div>
+				
+				<div class="card" onclick='createFrontCard("cards/Warlock/EndlessInvasion.json")'>
+					<img src="http://cards.hearthcards.net/b6d7fc7a.png" class="cardimage CardNormal"/>
+				</div>										
+				
+				<div class="card" onclick='createFrontCard("cards/Warlock/Mephistroth.json")'>
+					<img src="http://cards.hearthcards.net/2d97504d.png" class="cardimage CardLegendary"/>
+				</div>
+				
+				<div class="card" onclick='createFrontCard("cards/Warlock/LegionlordKiljaeden.json")'>
+					<img src="http://cards.hearthcards.net/59843358.png" class="cardimage CardLegendary"/>
+				</div>
+																		
+				
+			</div>		
+		</div>		
+		
+		<script>
+		
+			var x = document.getElementsByClassName('cardimage');
+			for (i = 0; i< x.length; i++)
+			{
+				setCardDimensions(x[i], 300);
+			}
+		
+		</script>
+		
+	</body>

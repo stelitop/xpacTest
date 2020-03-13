@@ -1,0 +1,15 @@
+{
+	"name": "Dreadful Imp",
+	"text": "<b>Invader</b><br/>Your other Demons have +1 Attack.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warlock",
+	"rarity": "Rare",
+	"type": "Minion",
+	"cost": 2,
+	"attack": 1,
+	"health": 2,
+	"tribe": "Demon",
+	
+	"cardSource": "http://cards.hearthcards.net/8f0cc2c2.png",
+	"artSource": "insert original art source"	
+}

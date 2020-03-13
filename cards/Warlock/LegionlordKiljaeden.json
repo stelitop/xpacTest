@@ -1,0 +1,18 @@
+{
+	"name": "Legionlord Kil'jaeden",
+	"text": "<b>Deathrattle:</b> Add a 'Twisting Nether' spell to your hand. It doesn't affect your Demons.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warlock",
+	"rarity": "Legendary",
+	"type": "Minion",
+	"cost": 9,
+	"attack": 7,
+	"health": 9,
+	"tribe": "Demon",
+	
+	"tokenLinks": [ "http://cards.hearthcards.net/202f478c.png" ],
+	"tokenTypes": [ "CardNormal" ],
+	
+	"cardSource": "http://cards.hearthcards.net/59843358.png",
+	"artSource": "insert original art source"	
+}

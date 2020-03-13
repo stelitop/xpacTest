@@ -1,0 +1,18 @@
+{
+	"name": "Dark Reinforcements",
+	"text": "Add a 6/6 Dread Infernal to your hand, deck and battlefield.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warlock",
+	"rarity": "Common",
+	"type": "Spell",
+	"cost": 6,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"tokenLinks": [ "http://cards.hearthcards.net/776b7e25.png" ],
+	"tokenTypes": [ "CardNormal" ],
+	
+	"cardSource": "http://cards.hearthcards.net/949b908b.png",
+	"artSource": "insert original art source"	
+}
