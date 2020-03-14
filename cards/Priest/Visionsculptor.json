@@ -1,0 +1,18 @@
+{
+	"name": "Visionsculptor",
+	"text": "After you deal damage with spells, summon a Shadow with that many stats.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Priest",
+	"rarity": "Rare",
+	"type": "Minion",
+	"cost": 4,
+	"attack": 3,
+	"health": 3,
+	"tribe": "None",
+	
+	"tokenLinks": [ "http://cards.hearthcards.net/8974aaa9.png" ],
+	"tokenTypes": [ "CardNormal" ],
+	
+	"cardSource": "http://cards.hearthcards.net/8974aaa9.png",
+	"artSource": "insert original art source"	
+}

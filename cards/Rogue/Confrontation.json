@@ -1,0 +1,18 @@
+{
+	"name": "Confrontation",
+	"text": "<b>Discover</b> a 1-Cost spell from another class.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Rogue",
+	"rarity": "Common",
+	"type": "Spell",
+	"cost": 1,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/65a33ae5.png",
+	"artSource": "insert original art source"	
+}

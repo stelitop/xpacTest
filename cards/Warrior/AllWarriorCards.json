@@ -1,0 +1,55 @@
+{
+   "directory":"cards/Warrior/",
+   "cards":[
+      {
+         "cardLink": "Feldrenaline.json",
+         "artSource": "http://cards.hearthcards.net/0668df89.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "HelheimSalvation.json",
+         "artSource": "http://cards.hearthcards.net/d95e8302.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "FallenKvaldir.json",
+         "artSource": "http://cards.hearthcards.net/db1d31a1.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "Ghostguard.json",
+         "artSource": "http://cards.hearthcards.net/6b452f03.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "ShivarraBlademaster.json",
+         "artSource": "http://cards.hearthcards.net/0f948b9b.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "Worldtearer.json",
+         "artSource": "http://cards.hearthcards.net/9249ce3e.png",
+         "cardType": "CardWeapon"
+      },
+	  {
+         "cardLink": "DarkLordBalnazzar.json",
+         "artSource": "http://cards.hearthcards.net/f9f9975e.png",
+         "cardType": "CardLegendary"
+      },
+	  {
+         "cardLink": "EredarConqueror.json",
+         "artSource": "http://cards.hearthcards.net/d9498728.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "SoulGathering.json",
+         "artSource": "http://cards.hearthcards.net/bb7b8b8d.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "HelyaTheSeaWitch.json",
+         "artSource": "http://cards.hearthcards.net/4f0cddf1.png",
+         "cardType": "CardLegendary"
+      }	  
+   ]
+}

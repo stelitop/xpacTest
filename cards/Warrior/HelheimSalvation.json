@@ -1,0 +1,18 @@
+{
+	"name": "Helheim Salvation",
+	"text": "Return your highest-Cost minion that died this game to your hand.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warrior",
+	"rarity": "Rare",
+	"type": "Spell",
+	"cost": 1,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/d95e8302.png",
+	"artSource": "insert original art source"	
+}

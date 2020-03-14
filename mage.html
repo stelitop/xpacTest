@@ -18,59 +18,14 @@
 	<body onresize='updateFrontCard(currentFrontCardUrl)'>
 		
 		<div id="cardGallery" class="cardGallery">
-			<div id="cardGalleryWrapper" class="cardGalleryWrapper">
-				
-				<div class="card" onclick='createFrontCard("cards/Mage/InsatiableHunger.json")'>
-					<img src="http://cards.hearthcards.net/48b304e4.png" class="cardimage CardNormal"/>
-				</div>				
-				
-				<div class="card" onclick='createFrontCard("cards/Mage/NightborneArcanist.json")'>
-					<img src="http://cards.hearthcards.net/630e8edb.png" class="cardimage CardNormal"/>
-				</div>
-
-				<div class="card" onclick='createFrontCard("cards/Mage/TheNightwellsEcho.json")'>
-					<img src="http://cards.hearthcards.net/a7bbe659.png" class="cardimage CardNormal"/>
-				</div>												
-				
-				<div class="card" onclick='createFrontCard("cards/Mage/CrystallineWaterfall.json")'>
-					<img src="http://cards.hearthcards.net/94c5ff28.png" class="cardimage CardNormal"/>
-				</div>
-				
-				<div class="card" onclick='createFrontCard("cards/Mage/MythicSorcerer.json")'>
-					<img src="http://cards.hearthcards.net/972e3d2f.png" class="cardimage CardNormal"/>
-				</div>
-				
-				<div class="card" onclick='createFrontCard("cards/Mage/Ebonbolt.json")'>
-					<img src="http://cards.hearthcards.net/f8d1082e.png" class="cardimage CardNormal"/>
-				</div>
-				
-				<div class="card" onclick='createFrontCard("cards/Mage/FirstArcanistThalyssra.json")'>
-					<img src="http://cards.hearthcards.net/3d6c8a2f.png" class="cardimage CardLegendary"/>
-				</div>
-				
-				<div class="card" onclick='createFrontCard("cards/Mage/ArcaneStorm.json")'>
-					<img src="http://cards.hearthcards.net/83e96df2.png" class="cardimage CardNormal"/>
-				</div>										
-				
-				<div class="card" onclick='createFrontCard("cards/Mage/AzurewingGuardian.json")'>
-					<img src="http://cards.hearthcards.net/7cc109b5.png" class="cardimage CardNormal"/>
-				</div>
-				
-				<div class="card" onclick='createFrontCard("cards/Mage/Ebonchill.json")'>
-					<img src="http://cards.hearthcards.net/47d9b0b6.png" class="cardimage CardLegendaryWeapon"/>
-				</div>
-																		
+			<div id="cardGalleryWrapper" class="cardGalleryWrapper">															
 				
 			</div>		
 		</div>		
 		
 		<script>
-		
-			var x = document.getElementsByClassName('cardimage');
-			for (i = 0; i< x.length; i++)
-			{
-				setCardDimensions(x[i], 300);
-			}
+						
+			loadClass("cards/Mage/AllMageCards.json");
 		
 		</script>
 		

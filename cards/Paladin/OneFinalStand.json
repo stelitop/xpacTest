@@ -1,0 +1,18 @@
+{
+	"name": "One Final Stand",
+	"text": "<b>Secret:</b> When your last minion dies, return it to life with <b>Taunt</b> and <b>Divine Shield</b>",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Paladin",
+	"rarity": "Epic",
+	"type": "Spell",
+	"cost": 1,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/db368925.png",
+	"artSource": "insert original art source"	
+}

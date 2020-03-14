@@ -5,11 +5,11 @@
 	"cardClass": "Mage",
 	"rarity": "Rare",
 	"type": "Spell",
-	"cost": 4,
+	"cost": 3,
 	"attack": 0,
 	"health": 0,
 	"tribe": "None",
 	
-	"cardSource": "http://cards.hearthcards.net/f8d1082e.png",
+	"cardSource": "http://cards.hearthcards.net/698d91ef.png",
 	"artSource": "insert original art source"	
 }

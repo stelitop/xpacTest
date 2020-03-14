@@ -1,0 +1,18 @@
+{
+	"name": "Dark Lord Balnazzar",
+	"text": "After a friendly <b>Invader</b> portal triggers, resummon the portal.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warrior",
+	"rarity": "Legendary",
+	"type": "Minion",
+	"cost": 5,
+	"attack": 5,
+	"health": 5,
+	"tribe": "Demon",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/f9f9975e.png",
+	"artSource": "insert original art source"	
+}

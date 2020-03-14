@@ -1,0 +1,55 @@
+{
+   "directory":"cards/Mage/",
+   "cards":[
+      {
+         "cardLink": "InsatiableHunger.json",
+         "artSource": "http://cards.hearthcards.net/48b304e4.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "NightborneArcanist.json",
+         "artSource": "http://cards.hearthcards.net/630e8edb.png",
+         "cardType": "CardNormal"
+      },
+	  {
+		"cardLink": "TheNightwellsEcho.json",
+		"artSource": "http://cards.hearthcards.net/a7bbe659.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "Ebonbolt.json",
+		"artSource": "http://cards.hearthcards.net/698d91ef.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "MythicSorcerer.json",
+		"artSource": "http://cards.hearthcards.net/972e3d2f.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "CrystallineWaterfall.json",
+		"artSource": "http://cards.hearthcards.net/94c5ff28.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "Ebonchill.json",
+		"artSource": "http://cards.hearthcards.net/ec7ac126.png",
+		"cardType": "CardLegendaryWeapon"
+	  },
+	  {
+		"cardLink": "FirstArcanistThalyssra.json",
+		"artSource": "http://cards.hearthcards.net/3d6c8a2f.png",
+		"cardType": "CardLegendary"
+	  },
+	  {
+		"cardLink": "AzurewingGuardian.json",
+		"artSource": "http://cards.hearthcards.net/99bfe696.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "ArcaneStorm.json",
+		"artSource": "http://cards.hearthcards.net/83e96df2.png",
+		"cardType": "CardNormal"
+	  }
+   ]
+}

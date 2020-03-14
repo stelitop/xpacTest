@@ -1,0 +1,18 @@
+{
+	"name": "Light's Exemplar",
+	"text": "<b>Battlecry:</b> Give all minions in your hand +3 Health.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Priest",
+	"rarity": "Common",
+	"type": "Minion",
+	"cost": 5,
+	"attack": 3,
+	"health": 6,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/e94c02ff.png",
+	"artSource": "insert original art source"	
+}

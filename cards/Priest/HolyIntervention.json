@@ -1,0 +1,18 @@
+{
+	"name": "Holy Intervention",
+	"text": "Draw a spell from your deck and cast a copy of it with random targets.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Priest",
+	"rarity": "Epic",
+	"type": "Spell",
+	"cost": 4,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/90c1dc69.png",
+	"artSource": "insert original art source"	
+}

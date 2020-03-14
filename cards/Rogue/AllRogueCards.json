@@ -1,0 +1,55 @@
+{
+   "directory":"cards/Rogue/",
+   "cards":[
+      {
+         "cardLink": "Confrontation.json",
+         "artSource": "http://cards.hearthcards.net/65a33ae5.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "FromTheShadows.json",
+         "artSource": "http://cards.hearthcards.net/61453480.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "CrescentStrike.json",
+         "artSource": "http://cards.hearthcards.net/36bd882f.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "MythicJailer.json",
+         "artSource": "http://cards.hearthcards.net/fc59ce60.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "ScoutingOwl.json",
+         "artSource": "http://cards.hearthcards.net/e327f857.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "PlanInAction.json",
+         "artSource": "http://cards.hearthcards.net/1d85d0b8.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "UmbraCrescent.json",
+         "artSource": "http://cards.hearthcards.net/aa96b5c3.png",
+         "cardType": "CardWeapon"
+      },
+	  {
+         "cardLink": "WardenShadowlurker.json",
+         "artSource": "http://cards.hearthcards.net/211171d2.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "VaultKeeperMaiev.json",
+         "artSource": "http://cards.hearthcards.net/04c6e07a.png",
+         "cardType": "CardLegendary"
+      },
+	  {
+         "cardLink": "Soulchasm.json",
+         "artSource": "http://cards.hearthcards.net/435f350d.png",
+         "cardType": "CardLegendaryWeapon"
+      }
+   ]
+}

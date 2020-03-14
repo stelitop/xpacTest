@@ -1,0 +1,18 @@
+{
+	"name": "The Heavens's Aegis",
+	"text": "Give a minion +2/+2. Give a random minion in your hand +2/+2.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Paladin",
+	"rarity": "Common",
+	"type": "Spell",
+	"cost": 2,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/c6cf77e1.png",
+	"artSource": "insert original art source"	
+}

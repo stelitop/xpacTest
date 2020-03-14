@@ -1,0 +1,55 @@
+{
+   "directory":"cards/Priest/",
+   "cards":[
+      {
+         "cardLink": "EntropicEmbrace.json",
+         "artSource": "http://cards.hearthcards.net/e57d6cf4.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "XerasHeart.json",
+         "artSource": "http://cards.hearthcards.net/52116162.png",
+         "cardType": "CardNormal"
+      },
+	  {
+		"cardLink": "VoidGrasp.json",
+		"artSource": "http://cards.hearthcards.net/b17d0f32.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "Xalatath.json",
+		"artSource": "http://cards.hearthcards.net/1a26c704.png",
+		"cardType": "CardLegendaryWeapon"
+	  },
+	  {
+		"cardLink": "HolyIntervention.json",
+		"artSource": "http://cards.hearthcards.net/90c1dc69.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "MythicShadowcaster.json",
+		"artSource": "http://cards.hearthcards.net/946419ea.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "Visionsculptor.json",
+		"artSource": "http://cards.hearthcards.net/8974aaa9.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "DraeneiArchivist.json",
+		"artSource": "http://cards.hearthcards.net/d4691a41.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "LightsExemplar.json",
+		"artSource": "http://cards.hearthcards.net/e94c02ff.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "VelenTheDivine.json",
+		"artSource": "http://cards.hearthcards.net/8d503df2.png",
+		"cardType": "CardLegendary"
+	  }
+   ]
+}

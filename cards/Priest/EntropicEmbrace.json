@@ -1,0 +1,18 @@
+{
+	"name": "Entropic Embrace",
+	"text": "Deal 3 damage to a minion. Doubled for each other copy of this you've played this game.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Priest",
+	"rarity": "Epic",
+	"type": "Spell",
+	"cost": 2,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/e57d6cf4.png",
+	"artSource": "insert original art source"	
+}

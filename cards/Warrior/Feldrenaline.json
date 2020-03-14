@@ -1,0 +1,18 @@
+{
+	"name": "Feldrenaline",
+	"text": "Your hero has unlimited attacks this turn but can't attack heroes.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warrior",
+	"rarity": "Epic",
+	"type": "Spell",
+	"cost": 1,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/0668df89.png",
+	"artSource": "insert original art source"	
+}

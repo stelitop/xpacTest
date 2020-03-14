@@ -1,0 +1,56 @@
+{
+   "directory":"cards/Paladin/",
+   "cards":[
+      {
+         "cardLink": "HolyBlessing.json",
+         "artSource": "http://cards.hearthcards.net/9482d30a.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "OneFinalStand.json",
+         "artSource": "http://cards.hearthcards.net/db368925.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "PupilKnight.json",
+         "artSource": "http://cards.hearthcards.net/b3c2af40.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "TheHeavenssAegis.json",
+         "artSource": "http://cards.hearthcards.net/c6cf77e1.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "TranscendedFlight.json",
+         "artSource": "http://cards.hearthcards.net/44d902fc.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "OdynTheAllFather.json",
+         "artSource": "http://cards.hearthcards.net/fa9e438b.png",
+         "cardType": "CardLegendary"
+      },
+	  {
+         "cardLink": "WingedOverseer.json",
+         "artSource": "http://cards.hearthcards.net/155c39ae.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "Heavenspeaker.json",
+         "artSource": "http://cards.hearthcards.net/88247bc4.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "MythicValkyr.json",
+         "artSource": "http://cards.hearthcards.net/9e2ee7b1.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "Oathseeker.json",
+         "artSource": "http://cards.hearthcards.net/50dd7d2f.png",
+         "cardType": "CardLegendaryWeapon"
+      }
+	  
+   ]
+}

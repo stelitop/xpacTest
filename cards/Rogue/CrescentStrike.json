@@ -1,0 +1,18 @@
+{
+	"name": "CrescentStrike",
+	"text": "Deal 2 damage to a minion. Repeat with your weapon's damage.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Rogue",
+	"rarity": "Epic",
+	"type": "Spell",
+	"cost": 2,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/36bd882f.png",
+	"artSource": "insert original art source"	
+}

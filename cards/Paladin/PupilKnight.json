@@ -1,0 +1,18 @@
+{
+	"name": "Pupil Knight",
+	"text": "Whenever this gains Attack, draw a card.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Paladin",
+	"rarity": "Rare",
+	"type": "Minion",
+	"cost": 2,
+	"attack": 1,
+	"health": 3,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/b3c2af40.png",
+	"artSource": "insert original art source"	
+}

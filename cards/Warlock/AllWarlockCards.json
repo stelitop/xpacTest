@@ -1,0 +1,55 @@
+{
+   "directory":"cards/Warlock/",
+   "cards":[
+      {
+         "cardLink": "DreadfulImp.json",
+         "artSource": "http://cards.hearthcards.net/8f0cc2c2.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "FelCoil.json",
+         "artSource": "http://cards.hearthcards.net/ca6ed154.png",
+         "cardType": "CardNormal"
+      },
+	  {
+		"cardLink": "Hellspeaker.json",
+		"artSource": "http://cards.hearthcards.net/5dcf48b0.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "Armageddon.json",
+		"artSource": "http://cards.hearthcards.net/d83767af.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "ArgusDefender.json",
+		"artSource": "http://cards.hearthcards.net/ca305365.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "DarkReinforcements.json",
+		"artSource": "http://cards.hearthcards.net/949b908b.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "Voidguard.json",
+		"artSource": "http://cards.hearthcards.net/ec276af1.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "EndlessInvasion.json",
+		"artSource": "http://cards.hearthcards.net/b6d7fc7a.png",
+		"cardType": "CardNormal"
+	  },
+	  {
+		"cardLink": "Mephistroth.json",
+		"artSource": "http://cards.hearthcards.net/2d97504d.png",
+		"cardType": "CardLegendary"
+	  },
+	  {
+		"cardLink": "LegionlordKiljaeden.json",
+		"artSource": "http://cards.hearthcards.net/59843358.png",
+		"cardType": "CardLegendary"
+	  }
+   ]
+}

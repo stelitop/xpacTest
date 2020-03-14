@@ -1,0 +1,18 @@
+{
+	"name": "Transcended Flight",
+	"text": "Give a minion <b>Rush</b> and <b>Windfury</b>. It's <b>Immune</b> this turn.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Paladin",
+	"rarity": "Epic",
+	"type": "Spell",
+	"cost": 3,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/44d902fc.png",
+	"artSource": "insert original art source"	
+}

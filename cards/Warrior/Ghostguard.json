@@ -1,0 +1,18 @@
+{
+	"name": "Ghostguard",
+	"text": "<b>Battlecry:</b> Double your Armor <i>(up to 10 more)</i>.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warrior",
+	"rarity": "Common",
+	"type": "Minoin",
+	"cost": 3,
+	"attack": 3,
+	"health": 3,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/6b452f03.png",
+	"artSource": "insert original art source"	
+}

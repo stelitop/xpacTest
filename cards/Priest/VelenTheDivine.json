@@ -1,0 +1,18 @@
+{
+	"name": "Velen the Divine",
+	"text": "<b>Battlecry:</b> Return a random friendly minion that died this game to your hand and give it this <b>Battlecry</b>.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Priest",
+	"rarity": "Legendary",
+	"type": "Minion",
+	"cost": 7,
+	"attack": 7,
+	"health": 7,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/8d503df2.png",
+	"artSource": "insert original art source"	
+}

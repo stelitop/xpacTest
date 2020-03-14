@@ -1,0 +1,18 @@
+{
+	"name": "Winged Overseer",
+	"text": "<b>Divine Shield</b><br/>Has <b>Lifesteal</b> while having <b>Divine Shield</b>.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Paladin",
+	"rarity": "Common",
+	"type": "Minion",
+	"cost": 4,
+	"attack": 3,
+	"health": 4,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/155c39ae.png",
+	"artSource": "insert original art source"	
+}

@@ -47,7 +47,7 @@ function loadCard(cardurl) // DONT USE IS SHIT
 		//	setCardDimensions(newCards[i]);
 		//	newCards[i].classList.remove('tempClassSetDimension');
 		//}
-	})
+	});
 }
 
 function setCardDimensions(cardImageElement, width=0)
@@ -76,4 +76,26 @@ function setCardDimensions(cardImageElement, width=0)
 		cardImageElement.style.height = (width*543/400).toString() + 'px';
 		cardImageElement.style.paddingTop = (width*26/400).toString() + 'px';
 	}
+}
+
+function loadClass(allClassCardsUrl)
+{
+	$.getJSON(allClassCardsUrl, function(result){
+		
+		var cardGalleryWrapper = document.getElementById('cardGalleryWrapper');
+		for (i = 0; i < result.cards.length; i++)
+		{
+			var newHTML = '';
+			newHTML += '<div class="card" id="displayCard'+ i.toString() + '" onclick=\'createFrontCard("'+ result.directory + result.cards[i].cardLink +'")\'> ';	
+			newHTML += '<img src="'+ result.cards[i].artSource + '" class="cardimage '+ result.cards[i].cardType +'"/>';
+			newHTML += '</div>';
+			cardGalleryWrapper.innerHTML += newHTML;
+		}
+		
+		var x = document.getElementsByClassName('cardimage');
+		for (i = 0; i < x.length; i++)
+		{
+			setCardDimensions(x[i], 300);
+		}
+	});			
 }

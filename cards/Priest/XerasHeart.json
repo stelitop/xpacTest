@@ -1,0 +1,18 @@
+{
+	"name": "Xe'ra's Heart",
+	"text": "Restore 8 Health to a minion and 4 to its neighbors.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Priest",
+	"rarity": "Common",
+	"type": "Spel",
+	"cost": 2,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/52116162.png",
+	"artSource": "insert original art source"	
+}

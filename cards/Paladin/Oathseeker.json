@@ -1,0 +1,18 @@
+{
+	"name": "Oathseeker",
+	"text": "After you attack, give a random friendly minion +3/+3. <i>(Lose 3 <b>Divine Shields</b> to empower.)</i>",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Paladin",
+	"rarity": "Legendary",
+	"type": "Weapon",
+	"cost": 6,
+	"attack": 3,
+	"health": 3,
+	"tribe": "None",
+	
+	"tokenLinks": [ "http://cards.hearthcards.net/bcebd791.png", "http://cards.hearthcards.net/60188f1b.png" ],
+	"tokenTypes": [ "CardLegendaryWeapon", "CardLegendaryWeapon" ],
+	
+	"cardSource": "http://cards.hearthcards.net/50dd7d2f.png",
+	"artSource": "insert original art source"	
+}

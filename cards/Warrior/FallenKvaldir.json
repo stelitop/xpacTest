@@ -1,0 +1,18 @@
+{
+	"name": "Fallen Kvaldir",
+	"text": "After you lose all of your Armor, destroy a random enemy minion.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warrior",
+	"rarity": "Rare",
+	"type": "Minion",
+	"cost": 3,
+	"attack": 3,
+	"health": 4,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/db1d31a1.png",
+	"artSource": "insert original art source"	
+}

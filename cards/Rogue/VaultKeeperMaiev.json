@@ -1,0 +1,18 @@
+{
+	"name": "Vault Keeper Maiev",
+	"text": "<b>Rush</b>. <b>Battlecry:</b> Choose an enemy minion. This is <b>Immune</b> while it's alive.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Rogue",
+	"rarity": "Legendary",
+	"type": "Minion",
+	"cost": 5,
+	"attack": 4,
+	"health": 4,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/04c6e07a.png",
+	"artSource": "insert original art source"	
+}

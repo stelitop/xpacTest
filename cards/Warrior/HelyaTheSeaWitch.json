@@ -1,0 +1,18 @@
+{
+	"name": "Helya the Sea Witch",
+	"text": "Whenever you would gain Armor, deal that much damage to all other minions instead.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Warrior",
+	"rarity": "Legendary",
+	"type": "Minion",
+	"cost": 7,
+	"attack": 5,
+	"health": 7,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/4f0cddf1.png",
+	"artSource": "insert original art source"	
+}
