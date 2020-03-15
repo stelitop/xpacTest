@@ -1,0 +1,18 @@
+{
+	"name": "Stormsky Totem",
+	"text": "At the end of your turn, restore 4 Health to a damaged friendly minion.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Shaman",
+	"rarity": "Common",
+	"type": "Minion",
+	"cost": 2,
+	"attack": 0,
+	"health": 4,
+	"tribe": "Totem",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/3b311f16.png",
+	"artSource": "insert original art source"	
+}

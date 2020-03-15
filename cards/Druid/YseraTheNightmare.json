@@ -1,0 +1,18 @@
+{
+	"name": "Ysera the Nightmare",
+	"text": "<b>Battlecry:</b> Halve the Cost of all cards in your hand. <b>Deathrattle:</b> Destroy all of your Mana Crystals.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "",
+	"rarity": "",
+	"type": "",
+	"cost": 9,
+	"attack": 4,
+	"health": 12,
+	"tribe": "Dragon",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/c36e4583.png",
+	"artSource": "insert original art source"	
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Awaken the Storm",
+	"text": "Deal 2 damage to all enemy minions. Repeat for all of your Elementals.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Shaman",
+	"rarity": "Epic",
+	"type": "Spell",
+	"cost": 7,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/7abce59c.png",
+	"artSource": "insert original art source"	
+}

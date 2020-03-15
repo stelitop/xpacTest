@@ -1,0 +1,18 @@
+{
+	"name": "Fallen Drake",
+	"text": "<b>Deathrattle: </b> Draw a Dragon from your deck that costs (5) or more.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Druid",
+	"rarity": "Common",
+	"type": "Minion",
+	"cost": 4,
+	"attack": 4,
+	"health": 4,
+	"tribe": "Dragon",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/c60491b8.png",
+	"artSource": "insert original art source"	
+}

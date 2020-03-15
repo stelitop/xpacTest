@@ -1,0 +1,18 @@
+{
+	"name": "Sharas'Dal",
+	"text": "After you heal a minion. repair this weapon's Durability. <i>(Restore 12 Health to empower.)</i>",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Shaman",
+	"rarity": "Legendary",
+	"type": "Weapon",
+	"cost": 4,
+	"attack": 2,
+	"health": 3,
+	"tribe": "None",
+	
+	"tokenLinks": [ "http://cards.hearthcards.net/339acaa1.png", "http://cards.hearthcards.net/929b1403.png" ],
+	"tokenTypes": [ "CardLegendaryWeapon", "CardLegendaryWeapon" ],
+	
+	"cardSource": "http://cards.hearthcards.net/caf6421c.png",
+	"artSource": "insert original art source"	
+}

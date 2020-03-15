@@ -1,0 +1,18 @@
+{
+	"name": "Highridge Eagle",
+	"text": "<b>Battlecry:</b> If you control another minion, gain <b>Rush</b> and <b>Windfury</b>.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Shaman",
+	"rarity": "Rare",
+	"type": "Minion",
+	"cost": 4,
+	"attack": 4,
+	"health": 4,
+	"tribe": "Beast",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/a72803db.png",
+	"artSource": "insert original art source"	
+}

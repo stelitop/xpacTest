@@ -1,0 +1,18 @@
+{
+	"name": "Mythic Crystalline",
+	"text": "<b>Deathrattle:</b> Give the next minion you play \"<b>Battlecry:</b> Summon a 6/6 Shard.\"",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Shaman",
+	"rarity": "Epic",
+	"type": "Minion",
+	"cost": 6,
+	"attack": 6,
+	"health": 6,
+	"tribe": "Elemental",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/116d8ed2.png",
+	"artSource": "insert original art source"	
+}

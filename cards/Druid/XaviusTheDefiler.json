@@ -1,0 +1,18 @@
+{
+	"name": "Xavius the Defiler",
+	"text": "<b>Battlecry:</b> For the rest of the game, your Basic Druid cards are corrupted.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Druid",
+	"rarity": "Legendary",
+	"type": "Minion",
+	"cost": 6,
+	"attack": 5,
+	"health": 5,
+	"tribe": "Demon",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/ec986678.png",
+	"artSource": "insert original art source"	
+}

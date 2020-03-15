@@ -1,0 +1,18 @@
+{
+	"name": "Honorable Tribesman",
+	"text": "<b>Battlecry:</b> Summon a copy of a friendly totem.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Shaman",
+	"rarity": "Common",
+	"type": "Minion",
+	"cost": 3,
+	"attack": 3,
+	"health": 3,
+	"tribe": "None",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/12991be6.png",
+	"artSource": "insert original art source"	
+}

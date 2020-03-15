@@ -1,0 +1,18 @@
+{
+	"name": "Unbound Disasters",
+	"text": "Transform your minions into 3/4 Elementals with <b>Taunt</b>. <b>Overload:</b> (2)",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Shaman",
+	"rarity": "Common",
+	"type": "Spell",
+	"cost": 3,
+	"attack": 0,
+	"health": 0,
+	"tribe": "None",
+	
+	"tokenLinks": [ "http://cards.hearthcards.net/90cd9e32.png" ],
+	"tokenTypes": [ "CardNormal" ],
+	
+	"cardSource": "http://cards.hearthcards.net/89a6e384.png",
+	"artSource": "insert original art source"	
+}

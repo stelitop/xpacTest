@@ -1,0 +1,56 @@
+{
+   "directory":"cards/Shaman/",
+   "cards":[
+      {
+         "cardLink": "StormskyTotem.json",
+         "artSource": "http://cards.hearthcards.net/3b311f16.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "UlanHighmountain.json",
+         "artSource": "http://cards.hearthcards.net/e1f01d7e.png",
+         "cardType": "CardLegendary"
+      },
+	  {
+         "cardLink": "HonorableTribesman.json",
+         "artSource": "http://cards.hearthcards.net/12991be6.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "Overcharge.json",
+         "artSource": "http://cards.hearthcards.net/3cd85583.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "UnboundDisasters.json",
+         "artSource": "http://cards.hearthcards.net/89a6e384.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "HighridgeEagle.json",
+         "artSource": "http://cards.hearthcards.net/a72803db.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "SharasDal.json",
+         "artSource": "http://cards.hearthcards.net/caf6421c.png",
+         "cardType": "CardLegendaryWeapon"
+      },
+	  {
+         "cardLink": "EnragedAmbershard.json",
+         "artSource": "http://cards.hearthcards.net/92d62d66.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "MythicCrystalline.json",
+         "artSource": "http://cards.hearthcards.net/116d8ed2.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "AwakenTheStorm.json",
+         "artSource": "http://cards.hearthcards.net/7abce59c.png",
+         "cardType": "CardNormal"
+      }
+	  
+   ]
+}

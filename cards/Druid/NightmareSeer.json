@@ -1,0 +1,18 @@
+{
+	"name": "Nightmare Seer",
+	"text": "<b>Battlecry: </b> Add a 'Claw' spell to your hand. Corrupt it at the end of turn.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Druid",
+	"rarity": "Epic",
+	"type": "Minion",
+	"cost": 3,
+	"attack": 3,
+	"health": 3,
+	"tribe": "None",
+	
+	"tokenLinks": [ "http://cards.hearthcards.net/7648dd61.png" ],
+	"tokenTypes": [ "CardNormal" ],
+	
+	"cardSource": "http://cards.hearthcards.net/54b700c7.png",
+	"artSource": "insert original art source"	
+}

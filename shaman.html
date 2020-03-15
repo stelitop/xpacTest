@@ -1,0 +1,32 @@
+<head>
+		<title> Expansion Name </title>		
+		<meta charset = "UTF-8"/>
+		<meta name="keywords" content="Hearthstone,CustomHearthstone,Fanmade,Legion,Expansion,Demon,Artifact">
+		
+		<link rel="stylesheet" type="text/css" href="css/card.css" />
+		<link rel="stylesheet" type="text/css" href="css/cardGallery.css" />
+		<link rel="stylesheet" type="text/css" href="css/frontCard.css" />
+		
+		<script src="js/frontCard.js"></script>
+		<script src="js/loadCard.js"></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		
+	</head>
+	
+	<body onresize='updateFrontCard(currentFrontCardUrl)'>
+		
+		<div id="cardGallery" class="cardGallery">
+			<div id="cardGalleryWrapper" class="cardGalleryWrapper">															
+				
+			</div>		
+		</div>		
+		
+		<script>
+						
+			loadClass("cards/Shaman/AllShamanCards.json");
+		
+		</script>
+		
+	</body>

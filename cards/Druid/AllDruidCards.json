@@ -1,0 +1,56 @@
+{
+   "directory":"cards/Druid/",
+   "cards":[
+      {
+         "cardLink": "ProtectValSharah.json",
+         "artSource": "http://cards.hearthcards.net/821388a2.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "SuccumbToDarkness.json",
+         "artSource": "http://cards.hearthcards.net/02de3951.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "CrystallineImp.json",
+         "artSource": "http://cards.hearthcards.net/5746cec1.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "DreamgroveIdol.json",
+         "artSource": "http://cards.hearthcards.net/1a97c08e.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "NightmareSeer.json",
+         "artSource": "http://cards.hearthcards.net/54b700c7.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "FallenDrake.json",
+         "artSource": "http://cards.hearthcards.net/c60491b8.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "LunarCall.json",
+         "artSource": "http://cards.hearthcards.net/f3b39c86.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "CorruptedSatyr.json",
+         "artSource": "http://cards.hearthcards.net/fd4ea114.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "XaviusTheDefiler.json",
+         "artSource": "http://cards.hearthcards.net/ec986678.png",
+         "cardType": "CardLegendary"
+      },
+	  {
+         "cardLink": "YseraTheNightmare.json",
+         "artSource": "http://cards.hearthcards.net/c36e4583.png",
+         "cardType": "CardLegendary"
+      }
+	  
+   ]
+}
